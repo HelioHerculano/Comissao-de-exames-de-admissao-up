@@ -1,0 +1,14 @@
+.headerBackground {
+	background-color: #3398CC;
+}
+
+ul li.active:after{
+    content: "";
+    width: 60px;
+    height: 3px;
+    background-color: white;
+    display:block;
+    text-align: center;
+    margin: 0 auto;
+    z-index: 10;
+}
